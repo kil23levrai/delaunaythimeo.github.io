@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card-box">
-                    <h4 class="text-uppercase">Projet Sierpiński - 04.11.2020</h4>
+                    <h4 class="text-uppercase">Projet Sierpiński - 05.11.2020</h4>
                     <div class="pt-1">
                         <h5>Origines:</h5>
                         <p>
@@ -44,20 +44,15 @@
                         <h5>Explications:</h5>
                         <p class="text-muted">Ici, nous avons programmé ce motif, afin qu'il fonctionne avec
                             des triangles à la place des carrés.</p>
-                        <p class="text-muted">La premiere fonction "dessiner" attribue à chaque caractère
-                            une acction à effectuer, comme tourner ou avancer.
-                            La deuxieme fonction "Sierpinski" remplace chaqque caractère "F" et "G", par une
-                            chaîne plus grande.
-                            "F" est remplacé par "F-G+F+G-F" et "G" est remplacé par "GG".</p>
-                        <p class="text-muted">La function courbeSier associe à une variable "courbe" un
-                            motif initial. Pour chaque valeur de niter,
-                            la variable nouveauMotif sera associée à la valeur "courbe" de la fonction
-                            Sierpinski. "Courbe" deviendra alors la valeur de "nouveauMotif".
-                            La dernière fonction, "tapis", prend les valeurs de "motifInitial" et de niter
-                            comme paramètres. la variable "courbe" est associée
-                            au résultat de la fonction "courbeSier" en fonction des paramètres
-                            "motifInitial" et "niter". Enfin, pour les valeurs 0,1 et 2, tapis prend pour
-                            valeur "courbe" si "courbe" est supérieur ou égal à "tapis".
+                        <p class="text-muted">Il y a 3 fonction. Lors de l'exécution du programme, la fonction 
+                            "courbeSier" définit le nombre de fois que la fonction "sierpinski" sera exécutée en fonction
+                            de la valeur de "niter".
+                        </p>
+                        <p class="text-muted">La fonction sierpinski va associer une chaine de caractère a la lettre correspondante.
+                        </p>
+                        <p class="text-muted"> La dernière fonction, appelée "dessiner", va permettre de tracer le tapis de 
+                            Sierpinski. Cette fonction va associer a chaque caractère le mouvement à effectuer. 
+
                         </p>
                         <p>Voici une image du tapis de Sierpinski en fonction de niter=2 :</p>
                         <img src="images/niter2.png">
