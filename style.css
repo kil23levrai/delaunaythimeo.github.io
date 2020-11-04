@@ -1,0 +1,52 @@
+body{
+    color: #6c757d;
+    background-color: #f5f6f8;
+    margin-top:20px;
+}
+
+.card-box {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e7eaed;
+    padding: 1.5rem;
+    margin-bottom: 24px;
+    border-radius: .25rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.avatar-xl {
+    height: 6rem;
+    width: 6rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.timeline-sm {
+    padding-left: 110px;
+}
+.timeline-sm .timeline-sm-item {
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.timeline-sm .timeline-sm-item .timeline-sm-date {
+    position: absolute;
+    left: -104px;
+}
+
+.picture-height {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.student-title {
+    font-size: 16px;
+}
